@@ -1,0 +1,24 @@
+//Detect Alarm in case of High Temperature and Humidity
+from random import randint
+def temperature():
+    return randint(1,100)
+def humidity():
+    return randint(1,100)
+
+randomTemp=temperature()
+print("TEMPERATURE is:",randomTemp)
+
+randomHumidity=humidity()
+print("HUMIDITY is:",randomHumidity)
+
+if randomTemp not in range(5,30):
+    print("CAUTION! HIGH TEMPERATURE!!")
+    print("Beep Beep! Alarm on")
+else:
+    print("TEMPERATURE is NORMAL")
+    
+if randomHumidity not in range(40,60):
+    print("CAUTION! HUMIDITY IS HIGH!!")
+    print("Beep Beep! Alarm on")
+else:
+    print("HUMIDITY is NORMAL")
