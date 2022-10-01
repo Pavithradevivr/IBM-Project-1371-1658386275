@@ -1,6 +1,5 @@
 # IBM-Project-1371-1658386275
-
-SmartFarmer - IoT Enabled Smart Farming Application
+# SmartFarmer - IoT Enabled Smart Farming Application
 
 India is a Global agricultural powerhouse which is considered as the key for Human Progress. 
 Farmers are usually involved in watering the crops at scheduled times which requires a lot of human intervention, 
